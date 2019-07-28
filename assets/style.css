@@ -5,9 +5,34 @@
 
 }
 
+.navbar-brand {
+  
+  border: 1px; 
+}
+
 body {
-  color: black; 
-  background-color: 
+  background: linear-gradient(304deg, #ef1515, #192a48);
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 0s ease infinite;
+  -moz-animation: AnimationName 0s ease infinite;
+  animation: AnimationName 0s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 43%}
+      50%{background-position:100% 58%}
+      100%{background-position:0% 43%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 43%}
+      50%{background-position:100% 58%}
+      100%{background-position:0% 43%}
+  }
+  @keyframes AnimationName { 
+      0%{background-position:0% 43%}
+      50%{background-position:100% 58%}
+      100%{background-position:0% 43%}
+  }
 }
 
 
@@ -20,42 +45,38 @@ body {
   
 }
 
-.li:hover {
-  background-color: red; 
+.nav-item:hover {
+  background-color: #8fa3b0; 
   border-radius: 10%; 
 }
 
-.fuck-you {
-  
-  background-color: red; 
+.toni {
+  height: 10rem; 
   float: left; 
-  display: block; 
-  position: fixed; 
-  
 }
+  
+ 
+  
+
 
 footer {
   position:fixed;
   bottom: 0; 
   width: 100%; 
   height: 60px; 
-  background-color:red; 
   justify-content: center; 
   
 }
 
-.foottext {
-  text-align: center; 
-  color: black; 
-  height: 10%; 
-  background-color:
-
-}
-
-
-.words {
-  float: left; 
-  background-color: blue; 
+.panel-body {
+  background-color: white; 
+  margin: 10px; 
+  border: 1px solid; 
   display: block; 
+  width: 70rem; 
+
 }
+
+
+
 
