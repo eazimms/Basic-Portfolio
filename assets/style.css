@@ -1,5 +1,4 @@
 * {
-  pos
   margin: 0%; 
   border:0px;
   
@@ -7,58 +6,31 @@
 }
 
 body {
-  color: red; 
+  color: black; 
+  background-color: 
 }
 
-@media (min-width: 350px){
-  li{
-    float: left; 
-   
-  }
 
-}
-
-.rounded-float-left {
-  height: 15em; 
+.media-object{
+  height: 8rem; 
+  position: absolute; 
   float: left; 
-  
-}
-
-.media {
-  background-color:
-  position: absolute; 
-  border: 1px; 
   margin: 1px; 
-  background-color: green; 
-}
-
-li {
-  background-color: yellow; 
-  position: relative; 
-  float: right; 
-
-}
-}
-
-.nav-item:hover {
-  background-color: re
-  border-radius: 10%; 
-
-
-}
-
-h3{
-  background-color:  green; 
-  font-family: 'Times New Roman', Times, serif; 
-  border-radius: 5%; 
-  display: flex; 
-  position: absolute; 
-  font-size: 1rem; 
-}
-
-p {
+  border: 1 solid; 
   
-  background-color:
+}
+
+.li:hover {
+  background-color: red; 
+  border-radius: 10%; 
+}
+
+.fuck-you {
+  
+  background-color: red; 
+  float: left; 
+  display: block; 
+  position: fixed; 
   
 }
 
@@ -68,44 +40,22 @@ footer {
   width: 100%; 
   height: 60px; 
   background-color:red; 
-  align-content: center; 
+  justify-content: center; 
+  
 }
 
 .foottext {
   text-align: center; 
   color: black; 
   height: 10%; 
-  background-color: red; 
+  background-color:
 
 }
 
-section {
-   
-  background-color: green; 
-  display: inline-block; 
-  margin: 1rem; 
-  border: solid .1rem; 
-  position: absolute; 
 
-
-}
-
-.container-fluid {
-  display: block; 
-}
-
-.item1 {
-  display: block; 
-
-}
-
-article {
+.words {
   float: left; 
-  background-color: green; 
+  background-color: blue; 
   display: block; 
-  margin: 3rem; 
-  border: solid .1rem; 
-  height: 10rem; 
-  position: absolute; 
 }
 
